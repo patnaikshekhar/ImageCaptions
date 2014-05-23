@@ -3,14 +3,14 @@
     $.fn.makeCaption = function(options) {
 
         var animationType = {
-            moveBelow: {
+            slideBelow: {
                 on: "moveUpStart",
                 off: "moveUpEnd",
                 finish: "finalStateMoveUp",
                 basic: "basicStateMoveUp"
             },
 
-            moveAbove: {
+            slideAbove: {
                 on: "moveDownStart",
                 off: "moveDownEnd",
                 finish: "finalStateMoveDown",
